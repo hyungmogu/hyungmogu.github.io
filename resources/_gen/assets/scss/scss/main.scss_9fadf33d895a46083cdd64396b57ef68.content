@@ -12612,7 +12612,7 @@ header {
   .td-navbar .navbar-logo svg {
     display: inline-block;
     height: 44px;
-    width: 130px; }
+    max-width: 130px; }
     @media (max-width: 991.98px) {
       .td-navbar .navbar-logo svg {
         width: 80px;
@@ -12663,6 +12663,7 @@ header {
       right: 0;
       left: initial; } }
   .td-navbar .td-search-input {
+    max-width: 228px;
     border: none; }
     .td-navbar .td-search-input::-webkit-input-placeholder {
       color: #000; }
